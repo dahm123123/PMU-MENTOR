@@ -1,0 +1,172 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .sidebar .logo-section img {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .sidebar nav ul li a.active,
+  .sidebar nav ul li a:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  /* Main Content */
+  .content {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  header .user-info {
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Resource Form */
+  .resource-form form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .resource-form input,
+  .resource-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .resource-form .file-upload {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px dashed #007BFF;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .resource-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* All Resources */
+  .all-resources {
+    margin-top: 20px;
+  }
+  
+  .filters button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filters .active {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .resource-cards .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .resource-cards .card h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .resource-cards .card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .resource-cards .card .tags {
+    font-size: 12px;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .resource-cards .card .actions button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resource-cards .card .actions .edit {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .resource-cards .card .actions .delete {
+    background-color: #FF4C4C;
+    color: white;
+  }
+  
